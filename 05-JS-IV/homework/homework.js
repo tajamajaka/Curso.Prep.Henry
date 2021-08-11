@@ -41,7 +41,6 @@ function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
   // Tu código:
   return  objetoMisterioso["numeroMisterioso"] * 5;
-
 }
 
 function eliminarPropiedad(objeto, unaPropiedad) {
@@ -105,7 +104,6 @@ function actualizarPassword(usuario, nuevaPassword) {
   // Tu código:
   usuario["password"] = nuevaPassword
   return usuario
-
 }
 
 function agregarAmigo(usuario, nuevoAmigo) {
@@ -126,7 +124,6 @@ function pasarUsuarioAPremium(usuarios) {
   for (let i = 0; i < usuarios.length; i++){
     usuarios[i].esPremium = true
   }
-
   return usuarios;
 }
 

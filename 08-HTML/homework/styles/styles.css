@@ -28,6 +28,13 @@ img {
     width: 400px;
     border: 2px solid #555;
 }
+
+.logo{
+    border: 0px;
+    width: 10rem;
+    height: 7rem;
+
+}
 main{
     background-image: url(../images/94237.jpg);
     background-size: cover;
